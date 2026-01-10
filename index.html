@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultant Informatique Industrielle & Aéronautique</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="titre">
+  <div class="texte_titre">Consultant en informatique industrielle et aéronautique</div>
+  </section>
+  
+  <section class="footer-section">
+  <div class="footer_text">© 2026 – ALP'AZUR Solutions - Tous droits réservés</div>
+  </section>
+  
+  <section class="portrait-section"></section>
+  
+  <section class="presentation-section">
+  <div class="presentation-text">
+    <p>Micro-entreprise: ALP'AZUR Solutions</p>
+    <p>Consultant: René Weisbuch</p>
+    <p>Diplôme: ENSI Constructions Aeronautiques</p>
+  </div>
+  <img src="Logo/ENSICA.jpg" alt="ENSICA">
+  </section>
+  
+  <section class="motto-section">
+  <div class="motto-text">
+    <p>"Fiabilité et Diversité</p>
+    <p>par l'Expérience"</p>
+  </div>
+  </section>
+  
+  <section class="experience-section">
+  <div class="experience-text">
+    <p>Systèmes Embarqués</p>
+    <img src="Logo/Systemes_Embarques.png" alt="Systemes Embarques">
+    <p>Technologie Radar</p>
+    <img src="Logo/Technologie_Radar.jpg" alt="Technologie Radar">
+    <p>Outils de développement</p>
+  </div>
+  </section>
+  
+  <section class="offre-section">
+  <div class="offre-text-content">
+    <p>- Solutions pour le développement et les tests de logiciels critiques</p>
+    <p>- Intégration/R&D d'algorithmes Radar</p>
+    <p>- Développement personnalisé d'outils logiciels: Dépouillement, automatisation...</p>
+    <p>- Expérience professionnelle de plus de 25 ans</p>
+    <p>- Aide pour le développement de tout type d'applications</p>
+  </div>
+  </section>
+  
+  <style>
+   body {
+      margin: 0;
+      position: relative; /* référence pour le positionnement */
+      height: 100vh;
+      background-image: url("Fond_d_ecran/Fond_ciel.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+    .intro-section {
+      position: absolute;
+      left: 550px;   /* x */
+      top: 100px;    /* y */
+      width: 695px;
+      height: 440px;
+
+      background-image: url("Fond_d_ecran/Fond_1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      border: 1px solid #000; /* juste pour visualiser la zone */
+    }
+    
+    .logo-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 0px;    /* y */
+      width: 100px;
+      height: 100px;
+
+      background-image: url("Logo/Logo_2.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      border: 2px solid #000; /* juste pour visualiser la zone */
+    }
+    .titre {
+      position: relative; /* référence */
+      height: 100px;
+      background: rgb(173, 216, 230);
+    }
+
+    .texte_titre {
+      position: absolute;
+      left: 180px;  /* x */
+      top: 30px;   /* y */
+      color: black;
+      font-size: 32px;
+      font-family: "Orbitron", sans-serif;
+    }
+    .footer-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 550px;    /* y */
+      width: 1200px;
+      height: 40px;
+      display: flex;
+      justify-content: center; /* centrage horizontal */
+      align-items: center;     /* centrage vertical */
+    }
+    .footer_text {
+      position: absolute;
+      color: black;
+      font-size: 16px;
+      font-family: "Arial", sans-serif;
+    }
+    .portrait-section {
+      position: absolute;
+      left: 20px;   /* x */
+      top: 120px;    /* y */
+      width: 180px;
+      height: 140px;
+
+      background-image: url("Portrait/Moi_et_Bure.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      border: 1px solid #000; /* juste pour visualiser la zone */
+    }
+    .presentation-section {
+      position: absolute;
+      left: 220px;   /* x */
+      top: 110px;    /* y */
+      width: 400px;
+      height: 100px;
+    }
+    .presentation-section img {
+      width: 50px;
+      margin-top: 110px;
+      margin-left: 100px;
+    }
+    .presentation-text {
+      position: absolute;
+      color: black;
+      font-size: 16px;
+      font-family: "Arial", sans-serif;
+    }
+    .motto-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 270px;    /* y */
+      width: 200px;
+      height: 50px;
+      display: flex;
+      justify-content: center; /* centrage horizontal */
+      align-items: center;     /* centrage vertical */
+    }
+    .motto-text {
+      position: absolute;
+      color: rgb(255,215,0);
+      font-size: 16px;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-style: italic;
+    }
+    .experience-section {
+      position: absolute;
+      left: 20px;   /* x */
+      top: 370px;    /* y */
+      width: 200px;
+      height: 150px;
+      display: flex;
+      justify-content: left; 
+      align-items: center; 
+      line-height: 1.0;
+    }
+    .experience-section img {
+      width: 50px;
+      /*margin-top: 110px;*/
+      margin-left: 50px;
+    }
+    .experience-text {
+      position: absolute;
+      color: black;
+      font-size: 16px;
+      font-family: "Orbitron", sans-serif;
+    }
+    .offre-section {
+      position: absolute;
+      left: 240px;   /* x */
+      top: 270px;    /* y */
+      width: 280px;
+      height: 265px;
+
+      /*background-image: url("Fond_d_ecran/Fond_bleu.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;*/
+
+      border: 4px solid #000; /* juste pour visualiser la zone */
+    }
+    .offre-text-content {
+      color: black;
+      font-size: 15px;
+      font-family: "Arial", sans-serif;
+      font-style: italic;
+      margin-left: 10px;
+    }
+  </style>
+  
+  <section class="intro-section"></section>
+  <section class="logo-section"></section>
+
+</body>
+</html>
