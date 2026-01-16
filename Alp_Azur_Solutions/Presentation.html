@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultant Informatique Industrielle & Aéronautique</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="titre">
+  <div class="texte_titre">Micro-Entreprise</div>
+  </section>
+  
+  <section class="logo-section"></section>
+  
+  <section class="footer-section">
+  <div class="footer_text">© 2026 – ALP'AZUR Solutions - Tous droits réservés</div>
+  </section>
+  
+  <section class="domaine">
+    <p class="domaine-titre">Domaines d'activité:</p>
+    <p class="domaine-texte">- Prestation de services dans l'informatique et l'aéronautique</p>
+    <p class="domaine-texte">- Support informatique et scientifique pour les particuliers et entreprises</p>
+    <p class="domaine-texte">- Développement et maintenance d'outils logiciel</p>
+  </section>
+  
+  <section class="Presentation">
+    <p>Nom de l'entreprise: ALP'AZUR Solutions</p>
+    <p>Statut: Micro-entreprise (Entrepreneur individuel)</p>
+    <p>Fiscalement rattachée à la France</p>
+    <p>Numéro de Siren: 999494883</p>
+    <p>Adresse: 25A Boulevard Bellevue 05000 Gap France</p>
+    <p>Numéro de téléphone: +33(0)6 32 88 33 78</p>
+    <p>Courriel: weisbuchr@gmail.com</p>
+    <p>Date de création: 08 Janvier 2026</p>
+  </section>
+  
+  <style>
+   body {
+      margin: 0;
+      position: relative; /* référence pour le positionnement */
+      height: 100vh;
+      background-image: url("../Fond_d_ecran/Fond_ciel.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .Presentation {
+      font-size: 24px;
+    }
+    .domaine {
+      font-size: 24px;
+      position: absolute;
+      left: 550px;   /* x */
+      top: 180px;    /* y */
+      width: 500px;
+      height: 300px;
+      border: 2px solid #000
+    }
+    .domaine-titre{
+        font-weight: bold;
+        text-align: center;
+    }
+    .domaine-texte{
+        text-indent: 30px;
+    }
+    .logo-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 0px;    /* y */
+      width: 300px;
+      height: 97px;
+
+      background-image: url("../Logo/Logo_simple_1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      border: 2px solid #000; /* juste pour visualiser la zone */
+    }
+    .titre {
+      position: relative; /* référence */
+      height: 100px;
+      background: rgb(173, 216, 230);
+    }
+    .texte_titre {
+      position: absolute;
+      left: 550px;  /* x */
+      top: 30px;   /* y */
+      color: black;
+      font-size: 32px;
+      font-family: "Orbitron", sans-serif;
+    }
+    .footer-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 550px;    /* y */
+      width: 1200px;
+      height: 40px;
+      display: flex;
+      justify-content: center; /* centrage horizontal */
+      align-items: center;     /* centrage vertical */
+    }
+    .footer_text {
+      position: absolute;
+      color: black;
+      font-size: 16px;
+      font-family: "Arial", sans-serif;
+    }
+  </style>
+
+</body>
+</html>
