@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultant Informatique Industrielle & Aéronautique</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="titre">
+  <div class="texte_titre">Qui suis-je ?</div>
+  </section>
+  
+  <section class="logo-section"></section>
+  
+  <section class="footer-section">
+  <div class="footer_text">© 2026 – ALP'AZUR Solutions - Tous droits réservés</div>
+  </section>
+  
+  <section class="cursus">
+    <p>Formation:</p>
+    <p>- Après avoir été à l'école et au collège de 1971 à 1984 à Grenoble, fin d'étude secondaires à Digne-les-Bains(04) France au Lycée A. David Neel</p>
+    <p>- Trois ans d'école préparatoire au Lycée Poincaré à Nancy (54) France</p>
+    <p>- Etudes supérieures à l'ENSICA Toulouse (31) France</p>
+    <p><span>
+        26 ans d'
+        <a href="Experience.html">Experience professionnelle</a>
+       </span>
+    </p>
+  </section>
+  
+  <section class="Presentation">
+    <p>Nom: Weisbuch René</p>
+    <p>Date de naissance: 13 Février 1971 (54 ans)</p>
+    <p>Lieu de naissance: Grenoble (38) Isère France</p>
+    <p>Lieu de résidence: Gap (05) France</p>
+    <p>Détenteur du permis de conduire (B)</p>
+    <p>Diplômes:</p>
+    <p>- Baccalauréat Filière scientifique (C)</p>
+    <p>- Ingénieur de l'ENSICA Toulouse France</p>
+  </section>
+  
+  <style>
+   body {
+      margin: 0;
+      position: relative; /* référence pour le positionnement */
+      height: 100vh;
+      background-image: url("../../Fond_d_ecran/Fond_ciel.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .Presentation {
+      font-size: 24px;
+      margin-left: 15px;
+    }
+    .cursus {
+      font-size: 24px;
+      position: absolute;
+      left: 550px;   /* x */
+      top: 100px;    /* y */
+      width: 500px;
+      height: 200px;
+    }
+    .logo-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 0px;    /* y */
+      width: 300px;
+      height: 97px;
+
+      background-image: url("../../Logo/Logo_simple_1.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      border: 2px solid #000; /* juste pour visualiser la zone */
+    }
+    .titre {
+      position: relative; /* référence */
+      height: 100px;
+      background: rgb(173, 216, 230);
+    }
+    .texte_titre {
+      position: absolute;
+      left: 550px;  /* x */
+      top: 30px;   /* y */
+      color: black;
+      font-size: 32px;
+      font-family: "Orbitron", sans-serif;
+    }
+    .footer-section {
+      position: absolute;
+      left: 10px;   /* x */
+      top: 550px;    /* y */
+      width: 1200px;
+      height: 40px;
+      display: flex;
+      justify-content: center; /* centrage horizontal */
+      align-items: center;     /* centrage vertical */
+    }
+    .footer_text {
+      position: absolute;
+      color: black;
+      font-size: 16px;
+      font-family: "Arial", sans-serif;
+    }
+  </style>
+
+</body>
+</html>
