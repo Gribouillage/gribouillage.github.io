@@ -10,24 +10,19 @@
 </head>
 <body>
   <section class="titre">
-  <div class="texte_titre">Expériences dans les Systèmes Embarqués</div>
+  <div class="texte_titre">Expériences dans les Technologies Radar</div>
   </section>
   
   <section class="logo-section"></section>
   
-  <section class="systemes-embarques">
-    <p>Logiciel pour radar au sol de surveillance aérienne. Hensoldt ASR</p>
-    <p>Implémentation et Intégration du Traitement du Signal d'un mode air-air d'un radar aéroporté. Hensoldt ECRS Mk1 pour Eurofighter.</p>
-    <img src="SE/ASR-NG.png" class="img-se-2">
-    <img src="SE/ECRS_Mk1.png" class="img-se-2">
-    <img src="SE/Cobra.png" class="img-se-2">
-    <p>Support pour l'intégration du simulateur d'environnement d'un radar de contre-batterie. Hensoldt COBRA.</p>
-    <p>Implémentation d'un simulateur des éléments du radar de l'Eurofighter en langage Ada.</p>
-    
-  </section>
-  
-  <section class="precedent">
-    <p><a href="Systemes_Embarques_1.html">Précédent</a><p>
+  <section class="technologie-radar">
+    <p>Développement d'outils logiciel d'aide à la mise au point de systèmes radar. (MATLAB/PYTHON)</p>
+    <p>Implémentation des tests d'algorithmes et du modèle d'un mode air-air de radar aéroporté.</p>
+    <p>Définition et exécution de tests modulaires, d'intégration et end-to-end d'algorithmes radar.</p>
+    <p>Travaux d'investigation:</p>
+    <p>- Détermaination de l'élévation d'une cible par un radar sol (fan-beam) double faisceau.</p>
+    <p>- Evaluation d'un traitement du signal radar avec grand nombre de filtres.</p>
+    <p>- Optimisation du traitement du signal provenant d'un missile par le radar de l'Eurofighter.</p>
   </section>
   
   <section class="footer-section">
@@ -79,21 +74,15 @@
       background-repeat: no-repeat;
     }
     /* -------- Systemes Embarques ------ */
-    .systemes-embarques {
+    .technologie-radar {
         font-size: 24px;
         margin-left: 20px;
     }
     
-    .se-images {
+    .tr-images {
       width: 100%;
       display: flex;
       justify-content: center;
-    }
-    
-    /* ------- Precedent ------- */
-    .precedent {
-        font-size: 24px;
-        margin-left: 400px;
     }
     
     /* ---------- FOOTER ---------- */
@@ -122,11 +111,6 @@
         margin-left: 160px;
         font-size: 32px;
       }
-      
-      .img-se-2 {
-        width: 150px;
-        height: 100px;
-      }
 
       .logo-section {
         position: absolute;
@@ -136,19 +120,12 @@
         height: 100px;
         margin:0;
       }
-      .systemes-embarques {
+      .technologie-radar {
         position: absolute;
         left: 50px;   /* x */
         top: 100px;    /* y */
         width: 1000px;
         height: 400px;
-      }
-      
-      .precedent {
-        position: absolute;
-        left: 20px;   /* x */
-        top: 480px;    /* y */
-        margin: 0;
       }
       
       .footer-section {
