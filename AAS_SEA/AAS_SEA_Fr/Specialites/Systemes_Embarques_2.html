@@ -16,18 +16,18 @@
   <section class="logo-section"></section>
   
   <section class="systemes-embarques">
-    <p>Systèmes temps réel avec forte exigence de fiabilité (Norme DO-178)</p>
-    <p>Développement de calculateurs internes de missiles "stand-off":</p>
-    <p>Storm Shadow et AASM:</p>
-    <div class="se-images"><img src="SE/Storm_Shadow.png" alt="Storm Shadow">
-                           <img src="SE/AASM.png" alt="AASM">
-    </div>                           
-    </p>
-    <p>Langage de programmation: C/C++. Utilisation de bancs de test temps réel pour l'intégration et la mise au point.</p>
+    <p>Logiciel pour radar au sol de surveillance aérienne. Hensoldt ASR</p>
+    <p>Implémentation et Intégration du Traitement du Signal d'un mode air-air d'un radar aéroporté. Hensoldt ECRS Mk1 pour Eurofighter.</p>
+    <img src="SE/ASR-NG.png" class="img-se-2">
+    <img src="SE/ECRS_Mk1.png" class="img-se-2">
+    <img src="SE/Cobra.png" class="img-se-2">
+    <p>Support pour l'intégration du simulateur d'environnemant d'un radar de contre-batterie. Hensoldt Cobra.</p>
+    <p>Implémentation d'un simulateur des éléments du radar de l'Eurofighter en langage Ada.</p>
+    
   </section>
   
-  <section class="suivant">
-    <p><a href="Systemes_Embarques_2.html">Suivant</a><p>
+  <section class="precedent">
+    <p><a href="Systemes_Embarques_1.html">Précédent</a><p>
   </section>
   
   <section class="footer-section">
@@ -90,8 +90,8 @@
       justify-content: center;
     }
     
-    /* ------- Suivant ------- */
-    .suivant {
+    /* ------- Precedent ------- */
+    .precedent {
         font-size: 24px;
         margin-left: 400px;
     }
@@ -122,6 +122,11 @@
         margin-left: 160px;
         font-size: 32px;
       }
+      
+      .img-se-2 {
+        width: 150px;
+        height: 100px;
+      }
 
       .logo-section {
         position: absolute;
@@ -139,7 +144,7 @@
         height: 400px;
       }
       
-      .suivant {
+      .precedent {
         position: absolute;
         left: 650px;   /* x */
         top: 480px;    /* y */
