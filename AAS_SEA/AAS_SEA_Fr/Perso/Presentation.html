@@ -17,7 +17,7 @@
   
   <section class="presentation">
     <p>Nom: Weisbuch René</p>
-    <p>Date de naissance: 13 Février 1971 (54 ans)</p>
+    <p>Date de naissance: 13 Février 1971 (55 ans)</p>
     <p>Lieu de naissance: Grenoble (38) Isère France</p>
     <p>Lieu de résidence: Gap (05) France</p>
     <p>Détenteur du permis de conduire (B)</p>
@@ -28,13 +28,19 @@
   
   <section class="cursus">
     <div class="cursus-titre"><p>Curriculum Vitae:</p></div>
-    <p><a href="CVs/R_Weisbuch_CV_2026_Long_Version_Fr.pdf" download>
-        - Télécharger le CV détaillé
+    <p><span>
+    <img src="../../Logo/pointing.png" alt="Pointing" class="pointing flip">
+       <a href="CVs/R_Weisbuch_CV_2026_Long_Version_Fr.pdf" download>
+       Télécharger le CV détaillé
        </a>
+    </span>
     </p>
-    <p><a href="CVs/R_Weisbuch_CV_2026_Short_Version_Fr.pdf" download>
-        - Télécharger le CV synthétique
+    <p><span>
+    <img src="../../Logo/pointing.png" alt="Pointing" class="pointing flip">
+        <a href="CVs/R_Weisbuch_CV_2026_Short_Version_Fr.pdf" download>
+        Télécharger le CV synthétique
        </a>
+    </span>
     </p>
     <p><span>
         26 ans d'
@@ -105,6 +111,16 @@
         font-weight: bold;
     }
     
+    .pointing {
+      width:10%;
+      height:10%
+      vertical-align: bottom;
+    }
+    
+    .flip {
+      transform: scaleX(-1);
+    }
+    
     /* ---------- FOOTER ---------- */
 
     .footer-section {
@@ -149,18 +165,18 @@
       
       .cursus {
         position: absolute;
-        left: 650px;   /* x */
-        top: 100px;    /* y */
-        width: 500px;
-        height: 200px;
+        left: 55%;   /* x */
+        top: 25%;    /* y */
+        width: 50%;
+        height: 20%;
       }
       
       .footer-section {
         position: absolute;
-        left: 10px;   /* x */
-        top: 550px;    /* y */
-        width: 1200px;
-        height: 40px;
+        left: 1%;   /* x */
+        top: 90%;    /* y */
+        width: 100%;
+        height: 4%;
         display: flex;
         justify-content: center; /* centrage horizontal */
         align-items: center;     /* centrage vertical */
