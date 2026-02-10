@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Consultant Informatique Industrielle & Aéronautique</title>
+  <title>Industrial & Aerospace IT Consultant</title>
   <link href="styles.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,103 +10,178 @@
 </head>
 <body>
   <section class="titre">
-  <div class="texte_titre">Qui suis-je ?</div>
+  <div class="texte_titre">Who am I?</div>
   </section>
   
   <section class="logo-section"></section>
   
-  <section class="footer-section">
-  <div class="footer_text">© 2026 – ALP'AZUR Solutions - Tous droits réservés</div>
+  <section class="presentation">
+    <p>Name: Weisbuch René</p>
+    <p>Date of birth: February 13, 1971 (55 years old)</p>
+    <p>Place of birth: Grenoble (38) Isère France</p>
+    <p>Place of residence: Gap (05) France</p>
+    <p>Holder of driving license (B)</p>
+    <p>Degrees:</p>
+    <p>- High school diploma in Science (C) in 1989</p>
+    <p>- Engineer from ENSICA Toulouse France</p>
   </section>
   
   <section class="cursus">
-    <p>Formation:</p>
-    <p>- Après avoir été à l'école et au collège de 1971 à 1984 à Grenoble, fin d'étude secondaires à Digne-les-Bains(04) France au Lycée A. David Neel</p>
-    <p>- Trois ans d'école préparatoire au Lycée Poincaré à Nancy (54) France</p>
-    <p>- Etudes supérieures à l'ENSICA Toulouse (31) France</p>
+    <div class="cursus-titre"><p>Curriculum Vitae:</p></div>
     <p><span>
-        26 ans d'
-        <a href="Experience.html">Experience professionnelle</a>
+    <img src="../../Logo/pointing.png" alt="Pointing" class="pointing flip">
+       <a href="CVs/R_Weisbuch_CV_2026_Long_Version_En.pdf" download>
+       Download detailed CV
+       </a>
+    </span>
+    </p>
+    <p><span>
+    <img src="../../Logo/pointing.png" alt="Pointing" class="pointing flip">
+        <a href="CVs/R_Weisbuch_CV_2026_Short_Version_En.pdf" download>
+        Download concise CV
+       </a>
+    </span>
+    </p>
+    <p><span>
+        26 years of
+        <a href="Experience.html">Professional experience</a>
        </span>
     </p>
   </section>
   
-  <section class="Presentation">
-    <p>Nom: Weisbuch René</p>
-    <p>Date de naissance: 13 Février 1971 (54 ans)</p>
-    <p>Lieu de naissance: Grenoble (38) Isère France</p>
-    <p>Lieu de résidence: Gap (05) France</p>
-    <p>Détenteur du permis de conduire (B)</p>
-    <p>Diplômes:</p>
-    <p>- Baccalauréat Filière scientifique (C)</p>
-    <p>- Ingénieur de l'ENSICA Toulouse France</p>
+  <section class="footer-section">
+  <div class="footer_text">© 2026 – ALP'AZUR Solutions - All rights reserved</div>
   </section>
   
   <style>
+   /* ===================== */
+    /* BASE (mobile first)   */
+    /* ===================== */
+
+    * {
+      box-sizing: border-box;
+    }
    body {
       margin: 0;
-      position: relative; /* référence pour le positionnement */
-      height: 100vh;
-      background-image: url("../../Fond_d_ecran/Fond_ciel.jpg");
+      min-height: 100vh;
+      width: 100%;
+      font-family: Arial, sans-serif;
+
+      background-image: url("../../Fond_d_ecran/gradient_blue_white.png");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
     }
-    .Presentation {
-      font-size: 24px;
-      margin-left: 15px;
+    
+    /* ---------- TITLE ---------- */
+
+    .titre {
+      background: rgb(173, 216, 230);
+      padding: 20px;
+      text-align: center;
     }
-    .cursus {
-      font-size: 24px;
-      position: absolute;
-      left: 550px;   /* x */
-      top: 100px;    /* y */
-      width: 500px;
-      height: 200px;
+
+    .texte_titre {
+      font-family: "Orbitron", sans-serif;
+      font-size: 22px;
     }
+    /* ---------- LOGO ---------- */
+
     .logo-section {
-      position: absolute;
-      left: 10px;   /* x */
-      top: 0px;    /* y */
-      width: 300px;
-      height: 97px;
+      width: 200px;
+      height: 65px;
+      margin: 20px auto;
 
       background-image: url("../../Logo/Logo_simple_1.png");
-      background-size: cover;
+      background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
+    }
+    /* -------- PRESENTATION ------ */
+    .presentation {
+        font-size: 24px;
+        margin-left: 15px;
+    }
+    
+    /* --------- CURSUS ---------- */
+    .cursus {
+        font-size: 24px;
+    }
+    .cursus-titre {
+        font-weight: bold;
+    }
+    
+    .pointing {
+      width:10%;
+      height:10%
+      vertical-align: bottom;
+    }
+    
+    .flip {
+      transform: scaleX(-1);
+    }
+    
+    /* ---------- FOOTER ---------- */
 
-      border: 2px solid #000; /* juste pour visualiser la zone */
-    }
-    .titre {
-      position: relative; /* référence */
-      height: 100px;
-      background: rgb(173, 216, 230);
-    }
-    .texte_titre {
-      position: absolute;
-      left: 550px;  /* x */
-      top: 30px;   /* y */
-      color: black;
-      font-size: 32px;
-      font-family: "Orbitron", sans-serif;
-    }
     .footer-section {
-      position: absolute;
-      left: 10px;   /* x */
-      top: 550px;    /* y */
-      width: 1200px;
-      height: 40px;
-      display: flex;
-      justify-content: center; /* centrage horizontal */
-      align-items: center;     /* centrage vertical */
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
     }
-    .footer_text {
-      position: absolute;
-      color: black;
-      font-size: 16px;
-      font-family: "Arial", sans-serif;
+    
+    /* ===================== */
+    /* DESKTOP */
+    /* ===================== */
+
+    @media (min-width: 1024px) {
+
+      .titre {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .texte_titre {
+        margin-left: 100px;
+        font-size: 32px;
+      }
+
+      .logo-section {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 270px;
+        height: 100px;
+        margin:0;
+      }
+      .presentation {
+        position: absolute;
+        left: 20px;   /* x */
+        top: 100px;    /* y */
+        width: 500px;
+        height: 300px;
+      }
+      
+      .cursus {
+        position: absolute;
+        left: 55%;   /* x */
+        top: 25%;    /* y */
+        width: 50%;
+        height: 20%;
+      }
+      
+      .footer-section {
+        position: absolute;
+        left: 1%;   /* x */
+        top: 90%;    /* y */
+        width: 100%;
+        height: 4%;
+        display: flex;
+        justify-content: center; /* horizontal centering */
+        align-items: center;     /* vertical centering */
     }
+  }
   </style>
 
 </body>
