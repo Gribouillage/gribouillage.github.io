@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultant Support en Sciences, Informatique & Allemand</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <section class="titre">
+  <div class="texte_titre">Consultant Support en Sciences, Informatique & Allemand</div>
+  </section>
+  
+  <section class="footer-section">
+  <div class="footer_text">© 2026 – ALP'AZUR Solutions - Tous droits réservés</div>
+  </section>
+  
+  <section class="portrait-section"></section>
+  
+  <section class="presentation-section">
+  
+  <div class="presentation-text1"> 
+    <p>Micro-entreprise:
+        <a href="Alp_Azur_Solutions/Presentation.html">ALP'AZUR Solutions</a>
+    </p>
+  </div>
+  <div class="presentation-text2">
+    <span class="consultant">
+        Consultant:
+        <a href="Perso/Presentation.html">
+            René Weisbuch
+        </a>
+     </span>
+  </div>
+  <div class="presentation-text3">
+    <p>Ingénieur aéronautique de l'ENSICA</p>
+  </div>
+  </section>
+  
+  <section class="motto-section">
+  <div class="motto-text">
+    <p>"Fiabilité et Diversité</p>
+    <p>par l'Expérience"</p>
+  </div>
+  </section>
+  
+  <section class="experience-section">
+  <div class="experience-text">
+    <a href="Specialites/Sciences.html">Mathématique et Physique</a>
+    <a href="Specialites/Informatique.html">Informatique</a>
+    <a href="Specialites/Allemand.html">Allemand</a>
+  </div>
+  </section>
+  
+  <section class="offre-section">
+  <div class="offre-text-content">
+    <p><span>
+    <img src="Logo/pointing.png" alt="Pointing" class="pointing flip">
+    Support pour les matières Mathématique et Physique
+    </span></p>
+    <p><span>
+    <img src="Logo/pointing.png" alt="Pointing" class="pointing flip">
+    Support en Informatique (Programmation)
+    </span></p>
+    <p><span>
+    <img src="Logo/pointing.png" alt="Pointing" class="pointing flip">
+    Support Langue Allemande (Grammaire, Oral,...)
+    </span></p>
+    <p><span>
+    <img src="Logo/pointing.png" alt="Pointing" class="pointing flip">
+    Expérience professionnelle internationale de plus de 25 ans
+    </span></p>
+  </div>
+  </section>
+  
+  <style>
+   /* ===================== */
+    /* BASE (mobile first) */
+    /* ===================== */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      width: 100%;
+      font-family: Arial, sans-serif;
+
+      background-image: url("Fond_d_ecran/wallpaper_education.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    /* ---------- TITRE ---------- */
+
+    .titre {
+      background: rgb(173, 216, 230);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .texte_titre {
+      font-family: "Orbitron", sans-serif;
+      font-size: 22px;
+    }
+
+    /* ---------- LOGO ---------- */
+
+    .logo-section {
+      width: 200px;
+      height: 65px;
+      margin: 20px auto;
+
+      background-image: url("Logo/Logo_simple_1.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    /* --------- Language --------- */
+    .language-section {
+        width: 50%
+    }
+
+    /* ---------- INTRO ---------- */
+
+    .intro-section {
+      width: 90%;
+      max-width: 700px;
+      min-height: 350px;
+      margin: 40px auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-image: url("../Fond_d_ecran/Fond_1.png");
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+    }
+    
+
+    /* ---------- PRESENTATION ---------- */
+
+    .presentation-section {
+      width: 90%;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .presentation-text2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .presentation-text2 img {
+      height: 30px;
+    }
+
+    /* ---------- PORTRAIT ---------- */
+
+    .portrait-section {
+      width: 180px;
+      height: 140px;
+      margin: 20px auto;
+      border: 2px solid black;
+
+      background-image: url("Portrait/Moi_et_Bure.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* ---------- MOTTO ---------- */
+
+    .motto-section {
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    .motto-text {
+      color: rgb(0,200,0);
+      font-style: italic;
+    }
+
+    /* ---------- EXPERIENCE ---------- */
+
+    .experience-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .experience-text {
+      display: flex;
+      gap: 20px;
+    }
+
+    .experience-text img {
+      width: 90px;
+    }
+
+    /* ---------- OFFRE ---------- */
+
+    .pointing {
+      width:10%;
+      height:10%
+      vertical-align: bottom;
+    }
+    
+    .flip {
+      transform: scaleX(-1);
+    }
+
+    .offre-section {
+      width: 90%;
+      max-width: 500px;
+      margin: 30px auto;
+      border: 2px solid black;
+      padding: 10px;
+      background-image: url("Fond_d_ecran/fond_peche_1920x1080.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-section {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    
+    /* ===================== */
+    /* DESKTOP */
+    /* ===================== */
+
+    @media (min-width: 1024px) {
+
+      .titre {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .texte_titre {
+        margin-left: 260px;
+        font-size: 32px;
+      }
+
+      .logo-section {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 270px;
+        height: 100px;
+        margin:0;
+      }
+      
+      .language-section {
+        position: absolute;
+        top: 5%;
+        left: 95%;
+        width: 50%;
+        height: 42%;
+      }
+
+      .portrait-section {
+        position: absolute;
+        top: 20%;
+        left: 3%;
+        margin: 0;
+      }
+      
+      .intro-section {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        width: 50%;
+        height: 42%;
+        margin: 0%;
+      }
+      
+
+      .presentation-section {
+        position: absolute;
+        top: 22%;
+        left: 23%;
+        width: 40%;
+        text-align: left;
+        margin: 0;
+      }
+      
+      .presentation-text2 {
+        justify-content: left;
+        gap: 15px;
+      }
+
+      .motto-section {
+        position: absolute;
+        top: 42%;
+        left: 4%;
+      }
+
+      .experience-section {
+        position: absolute;
+        top: 65%;
+        left: 3%;
+        justify-content: flex-start;
+      }
+      .experience-text {
+        display: flex;
+        flex-direction: column;   
+        gap: 15px;                
+        align-items: flex-start;
+      }
+
+      .offre-section {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        width: 42%;
+        height: 48%;
+        margin:0;
+        display: flex;
+        align-items: center;
+      }
+
+      .footer-section {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+      }
+    }
+
+  </style>
+  
+  <section class="intro-section"></section>
+  <section class="logo-section"></section>
+
+</body>
+</html>
